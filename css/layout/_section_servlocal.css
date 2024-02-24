@@ -1,0 +1,11 @@
+._section_servlocal{
+    margin-top: 40px;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    ._section_servlocal {
+         flex-direction: column;
+ }
+    }
+

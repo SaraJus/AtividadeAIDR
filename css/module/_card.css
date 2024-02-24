@@ -1,0 +1,45 @@
+.card {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.card_verde_menta {
+    background-color: #e0fcc2;
+}
+
+.card_rosa_pastel {
+    background-color: #fce1ee;
+}
+
+.card_pessego {
+    background-color: #fce5cd;
+}
+.card_amarelo{
+    background-color: #ffffe0;
+}
+.seta_5 {
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+    float: left;
+    transition: all 0.2 linear;
+    opacity: 1
+}
+
+.seta_5 i {
+    border-left: 10px solid #FFF;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    float: left;
+    margin: 0 10px;
+}
+
+.seta_5:hover {
+    opacity: 0.7;
+    box-shadow: 0 0 4px rgb(61, 60, 60)
+}
