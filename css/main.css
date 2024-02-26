@@ -1,14 +1,14 @@
 /* importa os arquivos */
 
-@import "base/_reset.css";
-@import "base/_variaveis.css";
-@import "layout/_nav.css";
-@import "base/_links.css";
-@import "base/_typography.css";
+@import "base/reset.css";
+@import "base/variaveis.css";
+@import "layout/nav.css";
+@import "base/links.css";
+@import "base/typography.css";
 @import "module/button.css";
-@import "layout/_header.css";
-@import "module/_card.css";
-@import "layout/_section_card.css";
+@import "layout/header.css";
+@import "module/card.css";
+@import "layout/sectioncard.css";
 @import "module/local.css";
-@import "layout/_section_servlocal.css";
+@import "layout/sectionservlocal.css";
 @import "layout/footer.css";
