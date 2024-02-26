@@ -1,4 +1,4 @@
-.serv_local{
+.serv_local {
     background-color: black;
     width: 100%;
     height: 100%;
@@ -6,7 +6,8 @@
     padding: 30px;
     position: absolute;
 }
-.img_serv{
+
+.img_serv {
     width: 400px;
     height: auto;
     padding-right: 100px;
@@ -14,16 +15,16 @@
     display: flex;
     position: absolute;
 }
-.local{
+
+.local {
     width: 100%;
     height: auto;
     display: flex;
     margin-top: 700px;
     flex-basis: 50%;
-
-
 }
-.img_local{
+
+.img_local {
     width: 600px;
     height: auto;
     position: absolute;
@@ -32,5 +33,31 @@
     margin: 0%;
     margin-top: 500px;
     z-index: 1;
+}
 
+
+@media only screen and (max-width: 768px) {
+    .serv_local {
+        flex-direction: column; 
+        align-items: center;
+        padding: 0px; 
+    }
+    
+    .img_serv {
+        position: static;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0px; 
+    }
+    
+    .local {
+        margin-top: 20px;
+    }
+    
+    .img_local {
+        position: static; 
+        padding-left: 0; 
+        margin-top: 20px; 
+        max-width: 100%;;
+    }
 }
